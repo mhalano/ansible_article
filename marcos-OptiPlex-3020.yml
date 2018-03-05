@@ -1,5 +1,5 @@
 ---
-- hosts: marcos-OptiPlex-3020
+- hosts: 127.0.0.2
   become: true
   tasks:
   - name: Install packages
